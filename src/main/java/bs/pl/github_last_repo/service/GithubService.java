@@ -24,24 +24,23 @@ public class GithubService {
         return this.findAll()
                 .stream()
                 .max(Comparator.comparing(Repository::getPushedAt))
-                .orElse(null).getName();
+                .map(Repository::getName)
+                .orElse(null);
     }
 
     private List<Repository> findAll() {
         final List<Repository> result = new ArrayList<>();
-        while (true) {
-            final GithubResponse response = githubClient.getRepo();
-            if (response != null) {
-                result.addAll(response.getGitHubRepos());
-                if (response.getTotalCount() == result.size()) {
-                    return result;
-                }
-                if (response.getGitHubRepos().size() == 0) {
-                    return Collections.emptyList();
-                }
-            } else {
+        final GithubResponse response = githubClient.getRepo();
+        if (response != null) {
+            result.addAll(response.getGitHubRepos());
+            if (response.getTotalCount() == result.size()) {
+                return result;
+            }
+            if (response.getGitHubRepos().size() == 0) {
                 return Collections.emptyList();
             }
         }
+        return Collections.emptyList();
     }
+
 }
