@@ -13,11 +13,11 @@ import lombok.*;
 public class GithubResponse {
 
     private final Long totalCount;
-    private final List<Repository> gitHubRepos;
+    private final List<Repository> githubRepos;
 
     public GithubResponse(@JsonProperty("total_count") Long totalCount,
-                          @JsonProperty("items") List<Repository> gitHubRepos) {
+                          @JsonProperty("items") List<Repository> githubRepos) {
         this.totalCount = totalCount;
-        this.gitHubRepos = gitHubRepos;
+        this.githubRepos = githubRepos;
     }
 }

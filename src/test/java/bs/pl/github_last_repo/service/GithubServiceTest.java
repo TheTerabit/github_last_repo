@@ -3,28 +3,20 @@ package bs.pl.github_last_repo.service;
 import bs.pl.github_last_repo.entity.GithubResponse;
 import bs.pl.github_last_repo.entity.Repository;
 import org.joda.time.DateTime;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -38,7 +30,7 @@ public class GithubServiceTest {
     private GithubService githubService;
 
     @Test
-    public void findLastUpdated() {
+    public void findLastUpdated_ProperDataGiven_ShouldReturnRepoName() {
 
         // given
         final Repository hermes = Repository.builder()
@@ -61,19 +53,37 @@ public class GithubServiceTest {
                 .pushedAt(new DateTime(2019, 4, 19, 12, 0).toDate())
                 .build();
 
-        final List<Repository> list = new ArrayList<Repository>();
 
         GithubResponse response = GithubResponse.builder()
                 .totalCount(4L)
-                .gitHubRepos(Arrays.asList(vaas, hermes, ralph, turnilo))
+                .githubRepos(Arrays.asList(vaas, hermes, ralph, turnilo))
                 .build();
 
-
-        when(githubClient.getRepo())
+        when(githubClient.getData())
                 .thenReturn(response);
 
+        assertEquals("turnilo",githubService.findLastUpdated());
 
-       assertEquals("turnilo",githubService.findLastUpdated());
-
+        verify(githubClient).getData();
+        verifyNoMoreInteractions(githubClient);
     }
+
+    @Test
+    public void findLastUpdated_EmptyListGiven_ShouldReturnNull() {
+
+        // given
+        GithubResponse response = GithubResponse.builder()
+                .totalCount(0L)
+                .githubRepos(new ArrayList<>())
+                .build();
+
+        when(githubClient.getData())
+                .thenReturn(response);
+
+        assertEquals(null, githubService.findLastUpdated());
+
+        verify(githubClient).getData();
+        verifyNoMoreInteractions(githubClient);
+    }
+
 }

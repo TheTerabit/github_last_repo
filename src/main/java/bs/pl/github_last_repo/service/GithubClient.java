@@ -12,7 +12,7 @@ public class GithubClient {
 
     private final WebTarget target = newClient().target("https://api.github.com/search/repositories?q=user:allegro&per_page=1000");
 
-    public GithubResponse getRepo(){
+    public GithubResponse getData(){
         return target.request()
                 .get(GithubResponse.class);
     }

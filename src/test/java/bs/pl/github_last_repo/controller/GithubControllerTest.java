@@ -1,8 +1,6 @@
 package bs.pl.github_last_repo.controller;
 
-import bs.pl.github_last_repo.entity.Repository;
 import bs.pl.github_last_repo.service.GithubService;
-import org.joda.time.DateTime;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,12 +10,10 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -31,7 +27,7 @@ public class GithubControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    public void getLastUpdatedName() throws Exception {
+    public void getLastUpdatedName_ProperDataGiven_ShouldReturnRepoName() throws Exception {
         // given
         final String vaas = "vaas";
 
@@ -45,6 +41,24 @@ public class GithubControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().string("vaas"));
 
+        verify(githubService).findLastUpdated();
+        verifyNoMoreInteractions(githubService);
+
+    }
+
+    @Test
+    public void getLastUpdatedName_NullGiven_ShouldReturnNull() throws Exception {
+        // given
+        final String emptyList = null;
+
+        when(githubService.findLastUpdated())
+                .thenReturn(emptyList);
+
+        mockMvc
+                // when
+                .perform(get("/api/repo"))
+                // then
+                .andExpect(content().string(""));
 
         verify(githubService).findLastUpdated();
         verifyNoMoreInteractions(githubService);

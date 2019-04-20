@@ -30,13 +30,13 @@ public class GithubService {
 
     private List<Repository> findAll() {
         final List<Repository> result = new ArrayList<>();
-        final GithubResponse response = githubClient.getRepo();
+        final GithubResponse response = githubClient.getData();
         if (response != null) {
-            result.addAll(response.getGitHubRepos());
+            result.addAll(response.getGithubRepos());
             if (response.getTotalCount() == result.size()) {
                 return result;
             }
-            if (response.getGitHubRepos().size() == 0) {
+            if (response.getGithubRepos().size() == 0) {
                 return Collections.emptyList();
             }
         }
