@@ -7,6 +7,7 @@ import java.util.List;
 
 import lombok.*;
 
+@Builder
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GithubResponse {

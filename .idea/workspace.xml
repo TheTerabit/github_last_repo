@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5e65cb15-7338-4f9a-b623-a1e1f17b5e47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/dao/GithubDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/service/GithubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/service/GithubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github_last_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/github_last_repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/GithubResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/GithubResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/controller/GithubControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/controller/GithubControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/service/GithubServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/service/GithubServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/GithubLastRepoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,19 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,27 +84,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -96,10 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubClientTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="340">
+              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -130,15 +130,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/dao/GithubDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Response.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/controller/GithubController.java" />
         <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubService.java" />
       </list>
     </option>
@@ -267,7 +267,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555705525533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555748705854" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rekrutacja-allegro/allegro-repos" />
@@ -295,7 +295,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.GithubLastRepoApplication">
+    <configuration name="GithubControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="github_last_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs.pl.github_last_repo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bs.pl.github_last_repo.controller" />
+      <option name="MAIN_CLASS_NAME" value="bs.pl.github_last_repo.controller.GithubControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="github_last_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs.pl.github_last_repo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bs.pl.github_last_repo.service" />
+      <option name="MAIN_CLASS_NAME" value="bs.pl.github_last_repo.service.GithubServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubServiceTest.findLastUpdated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="github_last_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs.pl.github_last_repo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bs.pl.github_last_repo.service" />
+      <option name="MAIN_CLASS_NAME" value="bs.pl.github_last_repo.service.GithubServiceTest" />
+      <option name="METHOD_NAME" value="findLastUpdated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GithubLastRepoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="github_last_repo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bs.pl.github_last_repo.GithubLastRepoApplication" />
@@ -303,6 +349,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GithubServiceTest" />
+        <item itemvalue="JUnit.GithubServiceTest.findLastUpdated" />
+        <item itemvalue="JUnit.GithubControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -322,12 +375,44 @@
       <workItem from="1555575788989" duration="4327000" />
       <workItem from="1555581377337" duration="4575000" />
       <workItem from="1555613223774" duration="780000" />
-      <workItem from="1555691955679" duration="3784000" />
+      <workItem from="1555691955679" duration="11942000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="GithubServiceTest_findLastUpdated - 2019.04.20 at 09h 53m 24s.xml">
+      <configuration name="GithubServiceTest.findLastUpdated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 09h 53m 34s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 00m 29s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 02m 23s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 11m 22s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 11m 41s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 14m 23s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 15m 31s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 16m 52s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 10h 24m 30s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28813000" />
+    <option name="totallyTimeSpent" value="36971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -345,7 +430,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -422,17 +507,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/GithubLastRepoApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="36">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,10 +527,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
@@ -465,21 +577,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/Repository.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -492,25 +608,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="-100">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#1968#1980#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/GithubLastRepoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
