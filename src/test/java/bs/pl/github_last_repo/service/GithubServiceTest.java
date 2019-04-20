@@ -1,7 +1,7 @@
 package bs.pl.github_last_repo.service;
 
-import bs.pl.github_last_repo.entity.GithubResponse;
-import bs.pl.github_last_repo.entity.Repository;
+import bs.pl.github_last_repo.model.GithubResponse;
+import bs.pl.github_last_repo.model.GithubRepository;
 import org.joda.time.DateTime;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,22 +33,22 @@ public class GithubServiceTest {
     public void findLastUpdated_ProperDataGiven_ShouldReturnRepoName() {
 
         // given
-        final Repository hermes = Repository.builder()
+        final GithubRepository hermes = GithubRepository.builder()
                 .name("hermes")
                 .pushedAt(new DateTime(2019, 4, 20, 12, 0).toDate())
                 .build();
 
-        final Repository vaas = Repository.builder()
+        final GithubRepository vaas = GithubRepository.builder()
                 .name("vaas")
                 .pushedAt(new DateTime(2018, 4, 20, 12, 0).toDate())
                 .build();
 
-        final Repository turnilo = Repository.builder()
+        final GithubRepository turnilo = GithubRepository.builder()
                 .name("turnilo")
                 .pushedAt(new DateTime(2019, 4, 20, 13, 0).toDate())
                 .build();
 
-        final Repository ralph = Repository.builder()
+        final GithubRepository ralph = GithubRepository.builder()
                 .name("ralph")
                 .pushedAt(new DateTime(2019, 4, 19, 12, 0).toDate())
                 .build();

@@ -1,6 +1,6 @@
 package bs.pl.github_last_repo.service;
 
-import bs.pl.github_last_repo.entity.GithubResponse;
+import bs.pl.github_last_repo.model.GithubResponse;
 import org.springframework.stereotype.Service;
 
 import javax.ws.rs.client.WebTarget;

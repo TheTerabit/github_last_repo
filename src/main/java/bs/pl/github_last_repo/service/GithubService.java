@@ -1,7 +1,7 @@
 package bs.pl.github_last_repo.service;
 
-import bs.pl.github_last_repo.entity.GithubResponse;
-import bs.pl.github_last_repo.entity.Repository;
+import bs.pl.github_last_repo.model.GithubResponse;
+import bs.pl.github_last_repo.model.GithubRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,13 +23,13 @@ public class GithubService {
     public String findLastUpdated() {
         return this.findAll()
                 .stream()
-                .max(Comparator.comparing(Repository::getPushedAt))
-                .map(Repository::getName)
+                .max(Comparator.comparing(GithubRepository::getPushedAt))
+                .map(GithubRepository::getName)
                 .orElse(null);
     }
 
-    private List<Repository> findAll() {
-        final List<Repository> result = new ArrayList<>();
+    private List<GithubRepository> findAll() {
+        final List<GithubRepository> result = new ArrayList<>();
         final GithubResponse response = githubClient.getData();
         if (response != null) {
             result.addAll(response.getGithubRepos());

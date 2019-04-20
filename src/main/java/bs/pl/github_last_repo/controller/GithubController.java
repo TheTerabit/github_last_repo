@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class GithubController {
 
-        @Autowired
-        private GithubService githubService;
+
+        private final GithubService githubService;
 
         @Autowired
         public GithubController(GithubService githubService) {
