@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e65cb15-7338-4f9a-b623-a1e1f17b5e47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github_last_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/github_last_repo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/entity/GithubResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/GithubResponse$GithubResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/GithubResponse$GithubResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/GithubResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/entity/GithubResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/service/GithubClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/service/GithubClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/service/GithubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bs/pl/github_last_repo/service/GithubService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/controller/GithubControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/controller/GithubControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/service/GithubServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bs/pl/github_last_repo/service/GithubServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubClientTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/GithubLastRepoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,10 +27,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="427">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,6 +152,13 @@
               <item name="github_last_repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="github_last_repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github_last_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github_last_repo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,12 +208,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555770333871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555771596239" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rekrutacja-allegro/allegro-repos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -242,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GithubLastRepoApplication">
+  <component name="RunManager" selected="JUnit.GithubLastRepoApplicationTests">
     <configuration name="GithubControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="github_last_repo" />
       <extension name="coverage">
@@ -254,22 +249,6 @@
       <option name="PACKAGE_NAME" value="bs.pl.github_last_repo.controller" />
       <option name="MAIN_CLASS_NAME" value="bs.pl.github_last_repo.controller.GithubControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GithubControllerTest.getLastUpdatedName_GivenProperData_ShouldReturnRepoName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="github_last_repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bs.pl.github_last_repo.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bs.pl.github_last_repo.controller" />
-      <option name="MAIN_CLASS_NAME" value="bs.pl.github_last_repo.controller.GithubControllerTest" />
-      <option name="METHOD_NAME" value="getLastUpdatedName_GivenProperData_ShouldReturnRepoName" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -286,6 +265,21 @@
       <option name="MAIN_CLASS_NAME" value="bs.pl.github_last_repo.controller.GithubControllerTest" />
       <option name="METHOD_NAME" value="getLastUpdatedName_NullGiven_ShouldReturnNull" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubLastRepoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="github_last_repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs.pl.github_last_repo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bs.pl.github_last_repo" />
+      <option name="MAIN_CLASS_NAME" value="bs.pl.github_last_repo.GithubLastRepoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -330,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GithubLastRepoApplicationTests" />
         <item itemvalue="JUnit.GithubServiceTest" />
         <item itemvalue="JUnit.GithubServiceTest.findLastUpdated_ProperDataGiven_ShouldReturnRepoName" />
         <item itemvalue="JUnit.GithubControllerTest.getLastUpdatedName_NullGiven_ShouldReturnNull" />
         <item itemvalue="JUnit.GithubControllerTest" />
-        <item itemvalue="JUnit.GithubControllerTest.getLastUpdatedName_GivenProperData_ShouldReturnRepoName" />
       </list>
     </recent_temporary>
   </component>
@@ -356,14 +350,11 @@
       <workItem from="1555575788989" duration="4327000" />
       <workItem from="1555581377337" duration="4575000" />
       <workItem from="1555613223774" duration="780000" />
-      <workItem from="1555691955679" duration="19385000" />
+      <workItem from="1555691955679" duration="20421000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GithubControllerTest - 2019.04.20 at 15h 07m 05s.xml">
-      <configuration name="GithubControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GithubServiceTest - 2019.04.20 at 15h 55m 27s.xml">
       <configuration name="GithubServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -391,15 +382,18 @@
     <history-entry file="GithubServiceTest - 2019.04.20 at 16h 20m 48s.xml">
       <configuration name="GithubServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GithubServiceTest - 2019.04.20 at 16h 24m 56s.xml">
+      <configuration name="GithubServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44414000" />
+    <option name="totallyTimeSpent" value="45450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -410,7 +404,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/GithubLastRepoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/service/GithubClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -599,20 +583,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="-440">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/service/GithubServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bs/pl/github_last_repo/GithubLastRepoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bs/pl/github_last_repo/controller/GithubControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
